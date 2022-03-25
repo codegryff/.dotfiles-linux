@@ -7,3 +7,6 @@
 [submodule "vim-config"]
 	path = vim-config
 	url = git@github.com:codegryff/vim-config.git
+[submodule "vscode-templates"]
+	path = vscode-templates
+	url = git@github.com:codegryff/vscode-templates.git

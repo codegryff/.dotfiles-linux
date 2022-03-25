@@ -1,0 +1,4 @@
+stow --verbose --ignore='\.git.*' -t ~ vim-config/
+stow --verbose --ignore='\.git.*' -t ~ bash-config/
+stow --verbose --ignore='\.git.*' -t ~ vscode-templates/
+stow --verbose  -t ~ git-config/
