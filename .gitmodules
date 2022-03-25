@@ -4,3 +4,6 @@
 [submodule "bash-config"]
 	path = bash-config
 	url = git@github.com:codegryff/bash-config.git
+[submodule "vim-config"]
+	path = vim-config
+	url = git@github.com:codegryff/vim-config.git
