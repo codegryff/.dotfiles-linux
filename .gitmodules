@@ -1,3 +1,6 @@
 [submodule "git-config"]
 	path = git-config
 	url = git@github.com:codegryff/git-config.git
+[submodule "bash-config"]
+	path = bash-config
+	url = git@github.com:codegryff/bash-config.git
