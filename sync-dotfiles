@@ -1,4 +1,13 @@
-stow --verbose --ignore='\.git.*' -t ~ vim-config/
-stow --verbose --ignore='\.git.*' -t ~ bash-config/
-stow --verbose --ignore='\.git.*' -t ~ vscode-templates/
-stow --verbose  -t ~ git-config/
+sync-dotfiles(){
+    stow --verbose  -t ~ git-config/
+
+    for dir in vim-config/ bash-config/ vscode-templates/
+    do
+        stow --verbose --ignore='\.git.*' -t ~ ${dir}
+    done
+}
+
+
+
+sync-dotfiles
+unset sync-dotfiles
